@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Interatividade</title>
+</head>
+<body>
+  <h1 class="m-3">Removendo aparencias</h1>
+  <select name="" id="" class="appearance-none">
+    <option value="">teste</option>
+  </select>
+  <br>
+
+  <h1 class="m-3">cursor do mouse</h1>
+  <div class="h-20 bg-pink-400 cursor-pointer"></div>
+  <div class="h-20 bg-pink-500 cursor-wait"></div>
+  <div class="h-20 bg-pink-600 cursor-not-allowed"></div>
+  <div class="h-20 bg-pink-700 cursor-text"></div>
+  <br>
+
+  <h1 class="m-3">Removendo o outline</h1>
+  <div>
+    <input type="text" placeholder="clica em mim" class="outline-none">
+  </div>
+  <div class="p-6 bg-red-300">
+    <input type="text" placeholder="clica em mim" class="outline-black" >
+  </div>
+  <br>
+
+  <h1 class="m-3">Removendo pointer events</h1>
+  <div class="bg-gray-300 p-4">
+    <select name="" id="" >
+      <option value="" class="pointer-events-none">teste pointers</option>
+    </select>
+    <select name="" id="" >
+      <option value="">teste pointers</option>
+    </select>
+    <div class="m-4">
+      <textarea name="" id="" cols="30" rows="10" class="pointer-events-none"></textarea>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+  </div>  <br>
+
+  <h1 class="m-3">Resize</h1>
+  <div class="m-4 bg-gray-300 p-4">
+    <textarea name="" id="" cols="30" rows="10" class="resize-none"></textarea>
+    <textarea name="" id="" cols="30" rows="10" class="resize-x"></textarea>
+    <textarea name="" id="" cols="30" rows="10" class="resize-y"></textarea>
+  </div>
+  <br>
+
+  <h1 class="m-3">removendo seleção</h1>
+  <div class="m-4 bg-gray-300 p-4">
+    <p class="select-none">Esse paragrafo não pode ser selecionado</p>
+  </div>
+  <br>
+</body>
+</html>
